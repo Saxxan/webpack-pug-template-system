@@ -1,0 +1,38 @@
+{
+  "name": "webpack-pug-template-system",
+  "version": "1.0.0",
+  "description": "Template for projects with pug render by webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saxxan/webpack-pug-template-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saxxan/webpack-pug-template-system/issues"
+  },
+  "homepage": "https://github.com/Saxxan/webpack-pug-template-system#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@webdiscus/pug-loader": "^2.0.0",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.9"
+  }
+}
